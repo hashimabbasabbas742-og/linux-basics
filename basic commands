@@ -1,0 +1,20 @@
+Here are some basic commands of linux that are important
+-> ls       //for listing directory contents
+-> ls -l    //for long listing to see the file or folder permissions
+-> ls -a    //for listing hidden files that are in the directory
+-> pwd      //for checking the current working directory
+-> cd       //for changing directory
+-> cd ..     //for going one directory back
+-> cd ../..  //for going two directories back
+-> cd -      //for going back to the directory your have exited
+-> cd        //for going into home directory from any folder 
+-> sudo -i   //for sifting into superuser(root)
+-> passwd    //for changing passwd of root or it can be used for changing users password
+-> su root   //after changing root password your can switch to root by this command
+-> history   //to check history 
+-> exit      // to exiting
+-> uptime     //for checking current users current time of system for how long system is been running
+-> whoami    //for checking user name
+-> hostname   //for checking hosts name
+-> man name   // man is used for checking manual of any tool
+-> sudo        // if you don't want to switch to root for a specific root prevelige function simply type sudo befroe it and run it
