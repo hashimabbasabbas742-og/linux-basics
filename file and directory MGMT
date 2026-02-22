@@ -1,0 +1,15 @@
+mkdir foldername //makes folder
+rmdir foldername //remove folder(which is empty)
+rm -rf foldername  //removes folder and its files recursively and forcefully
+mkdir -pv folder1/folder2/folder3/folder4  //creates multiple folders on in another progesively and shows creating process ie verbosely
+touch filename.extension   //makes a file 
+nano filename              //nano is a file editor and if the file name that you have put is not created it can also creates the file 
+cat filename               // use to read a file 
+cat >> filename             //use to append a new input in the file
+rm File_Name                 //use to removevFiles 
+ Text Editors: nano , mousepad , vim , leafpad , gedit 
+ echo 1             //prints 1 
+ a=10 echo $a       // prints variable value 10 
+ echo "Data Data" > filename   //Replaces Data And Creates File Does not Exist
+ echo "Data Data" >> Filename // Appends Data And Creates File Does not Exist
+ touch .File_Name   //Creates Hidden File
