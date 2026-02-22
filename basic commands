@@ -16,5 +16,5 @@ Here are some basic commands of linux that are important
 -> uptime     //for checking current users current time of system for how long system is been running
 -> whoami    //for checking user name
 -> hostname   //for checking hosts name
--> man name   // man is used for checking manual of any tool
+-> man toolname   // man is used for checking manual of any tool
 -> sudo        // if you don't want to switch to root for a specific root prevelige function simply type sudo befroe it and run it
