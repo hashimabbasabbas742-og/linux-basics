@@ -1,0 +1,48 @@
+sudo -> used to give superuser root privileges
+
+sh -> Shebang 
+bash -> borne again shell
+zsh -> zee shell
+
+/etc/passwd -> user data
+/etc/shadow -> user password hashes
+/etc/group -> groups  
+
+kali hashes 
+
+-> MD5
+
+Windows hashes
+
+C:\Windows\System32\config\SAM
+
+-> NTLM
+
+adduser kali // creates user
+
+useradd kali // Create user with specific attributes
+
+useradd -m kalu -s /bin/zsh -p 123 -u 2000
+
+-m -> home directory
+-s -> shell
+-p -> password
+-u -> user id
+
+deluser Username   //deletes a user
+
+userdel -r Username  //Deletes user along with all files related to it
+
+*Making a user Superuser*
+
+cat /etc/group | grep sudo
+
+sudo usermod -a -G sudo UserName
+
+-a -> add 
+-G -> To Group
+
+
+addgroup helmet
+
+sudo usermod -aG helmet UserName
