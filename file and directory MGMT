@@ -13,3 +13,33 @@ rm File_Name                 //use to removevFiles
  echo "Data Data" > filename   //Replaces Data And Creates File Does not Exist
  echo "Data Data" >> Filename // Appends Data And Creates File Does not Exist
  touch .File_Name   //Creates Hidden File
+
+whatis commandname  //tells What is A Command
+whatis ls
+
+man ls  // gives a manual
+
+ls --help  // gives a manual
+
+*Copy And Move*
+cp Source Destination
+cp data.txt Folder    //copy file
+cp /home/cipher/Downloads/data.txt  // copy to current directory
+cp ~/Downloads ~/Documents    // copy and paste somewhere
+cp -r foldername otherfoldername
+mv Filename newname  //changes name of file
+-------------------------------------------------------------------
+*Grep And Cut*
+Case Sensitive
+cat filename | grep keyword -> finds a specific keyword
+cat credentials.txt | grep hello -> example
+grep hello crenditials.txt
+grep Email credentials.txt | cut -d "," -f 1
+ | -> Pipe -> Command Separator -> sends output ahead
+-d -> delimiter
+-f -> field
+Name:Ali, Email:ali@gmail.com, Password:Ali@123
+
+ip a //shows ip address
+ifconfig //shows ip address
+
