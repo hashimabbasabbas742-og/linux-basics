@@ -1,0 +1,17 @@
+/dev/ -> directory for device MGMT
+sda -> block devices
+lsblk -> lists disks and partitions
+df -h -> same thing
+
+fdisk /dev/DISK_NAME
+
+n -> To Create A New Partition
+p -> Primary Partition
+Last Sector-> +4G -> Here You define the Size of Partition
+w -> write and exit
+
+sudo apt install xfsprogs
+
+mkfs.xfs /dev/Partition -> Formats A Partition into Specific Format
+
+mount /dev/Partition Mount_Point -> Selects MountPoint For A Partition
