@@ -1,0 +1,57 @@
+*Network MGMT*
+
+ip a -> shows ip and interfaces
+
+ifconfig -> same
+
+hostname -I -> shows ip
+
+sudo ip link set Interface_Name down
+
+sudo ip link set Interface_Name up
+
+sudo ip link set Interface_Name name New_Name
+
+iwconfig -> displays and manages wireless interface settings
+
+sudo systemctl restart NetworkManager -> restarts the NetworkManager service to refresh network connections and fix connectivity issues
+
+nmcli device wifi connect 'Wifi_Name' password 'password' -> to connect to a wifi
+
+nmcli device wifi list -> lists wifi connections near you
+
+----------------------------------------------------------------------------------------------------------------
+
+*Apache2*
+
+sudo apt install apache2
+sudo systemctl start Apache2
+sudo systemctl status Apache2
+sudo systemctl stop Apache2
+sudo systemctl restart Apache2
+
+-> you can use apache2 on bridge to see it on your other devices
+ 
+-> /var/www/html
+-> here you can change index.html
+-> /etc/apache2/ports.conf
+-> here you can change port number for apache2
+-> /var/logs/apache2
+-> Here you can check logs 
+*SSH*
+sudo apt install ssh
+sudo systemctl start ssh
+sudo systemctl status ssh
+sudo systemctl stop ssh
+sudo systemctl restart ssh
+on other device terminal
+->ssh username@ip-address
+->Then yes
+->password
+/etc/ssh/sshd_config
+-> here you can change port number
+-> PermitRootLogin yes -> To Allow Root User Login
+sudo netdiscover -r ip-address/subnet  -> shows devices connected to same network
+ss -tulnp -> show active ports 
+bridge -> you can connect to all the devices that are connected with your router
+NAT -> connect to only host
