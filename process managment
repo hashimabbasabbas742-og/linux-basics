@@ -1,0 +1,15 @@
+
+*Process MGMT*
+
+ps aux //used for lists processes
+
+ps aux | grep process_name
+
+kill Process_ID  //used for killing a process by ID
+kill -9 Process_ID  Forcefully kills a process by ID
+
+pkill Process_Name  Kills a Process by Name
+pkill -9 Process_Name  Kills a Process by Name
+
+top -> shows processes and info
+htop -> does the same more interactively
